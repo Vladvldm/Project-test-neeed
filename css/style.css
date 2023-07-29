@@ -1,0 +1,27 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrap {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.nav {
+  padding-top: 50px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+}
