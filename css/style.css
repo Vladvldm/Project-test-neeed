@@ -4,11 +4,14 @@
 
 body {
   margin: 0;
+  font-family: "Montserrat";
 }
 
 .wrap {
   width: 1240px;
   margin: 0 auto;
+  border: 1px solid #ffffff01;
+  box-shadow: 0 0 10px #777;
 }
 
 .nav {
@@ -20,7 +23,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  list-style-position:inside
+  list-style-position: inside;
+  padding: 0 20px;
 }
 
 li {
