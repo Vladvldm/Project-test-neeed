@@ -17,6 +17,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  box-shadow: 0 0 10px #777;
 }
 
 .h1 {
