@@ -14,6 +14,12 @@ body {
   box-shadow: 0 0 10px #777;
 }
 
+h1 {
+  color: #555;
+  padding: 0 20px;
+  text-shadow: 0 0 3px #333;
+}
+
 .nav {
   padding-top: 50px;
 }
@@ -33,8 +39,10 @@ li {
   padding: 4px 10px;
   border: 3px solid #59f;
   border-radius: 10px;
+  box-shadow: 0 0 5px #999;
 }
 
 a {
   text-decoration: none;
+  text-shadow:  1px 1px 3px #333; /* voff blur ;#c28e16 */
 }
