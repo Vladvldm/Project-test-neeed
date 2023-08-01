@@ -8,16 +8,17 @@ body {
 }
 
 .wrap {
-  width: 1240px;
+  max-width: 1240px;
+  min-width: 320px;
   margin: 0 auto;
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  box-shadow: 0 0 10px #777;
+  box-shadow: 0 0 5px #777;
 }
 
 .h1 {
@@ -38,6 +39,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  position: relative;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .card h2 {
@@ -50,37 +64,6 @@ body {
   margin: 4px 0 40px;
 }
 
-.block1 {
-  background-image: url(./img/frame_140.png);
-}
-
-.block2 {
-  background-image: url(./img/frame_141.png);
-}
-
-.block3 {
-  background-image: url(./img/frame_142.png);
-}
-
-.block4 {
-  background-image: url(./img/frame_143.png);
-}
-
-.block5 {
-  background-image: url(./img/frame_144.png);
-}
-
-.block6 {
-  background-image: url(./img/frame_145.png);
-}
-
-.block7 {
-  background-image: url(./img/frame_146.png);
-}
-
-.block8 {
-  background-image: url(./img/frame_147.png);
-}
 
 
 /* --- Навигация --- */
@@ -91,10 +74,10 @@ body {
 .nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   list-style-position: inside;
-  padding: 0 20px;
+  padding: 20px 0;
 }
 
 li {
@@ -107,4 +90,5 @@ li {
 
 a {
   text-decoration: none;
+  text-shadow:  1px 1px 3px #777;
 }
