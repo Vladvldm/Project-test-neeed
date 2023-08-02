@@ -15,9 +15,10 @@ body {
 }
 
 h1 {
-  color: #555;
-  padding: 0 20px;
-  text-shadow: 0 0 3px #333;
+  color: #5d5d5d;
+  padding: 0;
+  margin: 40px 20px;
+  text-shadow: 0 0 3px #777;
 }
 
 .nav {
@@ -27,10 +28,10 @@ h1 {
 .nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   list-style-position: inside;
-  padding: 0 20px;
+  padding: 20px 0;
 }
 
 li {
@@ -44,5 +45,5 @@ li {
 
 a {
   text-decoration: none;
-  text-shadow:  1px 1px 2px #555; /* voff blur ;#c28e16 */
+  text-shadow:  1px 1px 2px #555;
 }
