@@ -66,22 +66,28 @@ h1 {
 }
 
 .title_card {
-  width: 50px;
-  box-shadow: 0 1px 12px -2px #565656;
+  /* width: 50px; */
+  padding: 4px;
+  box-shadow: 0 1px 12px -2px rgba(86, 86, 86, 0.3);
 }
 
 .star {
-  width: 16px;
-  height: 16px;
-  margin: 0;
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
 }
 
 .rating {
-  margin-left: 4px;
+  font-style: 14px;
+  font-weight: 400;
+  /* margin: 4px; */
 }
 
 .review {
-  margin: 0 auto 0 8px;
+  font-size: 10px;
+  font-weight: 500;
+  margin: auto auto;
+  margin-left: 8px;
 }
 
 .year {
@@ -91,7 +97,7 @@ h1 {
   font-size: 12px;
   font-weight: 400;
   text-align: center;
-  padding: 2px;
+  padding: 6px;
   border-radius: 3px;
 }
 
