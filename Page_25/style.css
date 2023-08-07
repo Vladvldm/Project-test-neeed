@@ -75,25 +75,16 @@ h1 {
   margin-left: 4px;
 }
 
-/* .card_feader_wrap {
-  display: inline-block;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-} */
-
 .review {
   margin: 0 auto 0 8px;
 }
 
 .year {
-  /* display: inline-block; */
   width: 41px;
   background: #08006A;
   color: #fff;
   font-size: 12px;
   font-weight: 400;
-  align-items: stretch;
   text-align: center;
   border-radius: 3px;
 }
@@ -122,6 +113,7 @@ h1 {
 .price {
   font-size: 24px;
   font-weight: 500;
+  color: #08006A;
   padding: 0 4px 0 0;
 }
 
