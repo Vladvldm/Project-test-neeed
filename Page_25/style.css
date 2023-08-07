@@ -55,19 +55,24 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  vertical-align: middle;
   margin: 12px;
+}
+
+.title_card, .star,
+.rating, .review,
+.year {
+  display: inline-block;
 }
 
 .title_card {
   width: 50px;
-  display: inline-block;
   box-shadow: 0 1px 12px -2px #565656;
 }
 
 .star {
   width: 16px;
   height: 16px;
-  display: inline-block;
   margin: 0;
 }
 
@@ -86,6 +91,7 @@ h1 {
   font-size: 12px;
   font-weight: 400;
   text-align: center;
+  padding: 2px;
   border-radius: 3px;
 }
 
