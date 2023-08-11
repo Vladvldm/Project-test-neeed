@@ -47,3 +47,7 @@ a {
   text-decoration: none;
   text-shadow:  1px 1px 2px #555;
 }
+
+.activ {
+  background-color: #b7cc5a;
+}
