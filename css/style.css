@@ -1,28 +1,56 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-  margin: 0;
+html, body {
+  height: 100%;
   font-family: "Montserrat";
 }
 
 .wrap {
   width: 1240px;
   margin: 0 auto;
+
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
   border: 1px solid #ffffff01;
+}
+
+.page_header, 
+.page_footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+
   box-shadow: 0 0 10px #777;
 }
 
 h1 {
   color: #5d5d5d;
-  padding: 0;
-  margin: 40px 20px;
+  padding: 20px;
   text-shadow: 0 0 3px #777;
 }
 
-.nav {
-  padding-top: 50px;
+h3 {
+  color: #5d5d5d;
+  /* text-align: center; */
+  margin: auto auto;
+  margin-bottom: 0;
+}
+
+.main {
+  padding: 20px;
+  margin: 20px 0;
+
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 0 10px #777;
 }
 
 .nav ul {
