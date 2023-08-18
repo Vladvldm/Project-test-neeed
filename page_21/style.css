@@ -58,6 +58,10 @@ html, body {
 }
 
 
+.nav {
+  box-shadow: 0 0 10px #777;
+}
+
 .nav ul {
   display: flex;
   flex-direction: row;
