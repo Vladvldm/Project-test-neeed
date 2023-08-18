@@ -29,16 +29,31 @@ html, body {
 
 .header_card {
   display: flex;
-  margin: 44px 0 33px;
+  justify-content: space-between;
+  margin: 44px 0 0;
 }
 
 .block {
   display: flex;
+
 }
 
 .frame {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.type {
+  font-weight: 500;
+  font-size: 12px;
+  color: #797979;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2B2B2B;
 }
 
 .colors {
@@ -46,9 +61,63 @@ html, body {
   margin: 33px 0;
 }
 
+.descript {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2B2B2B;
+}
+
+.icon_color {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
 .main {
   display: flex;
-  margin: 44px 0;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.main_wrap {
+  border: 1px inset #3d84ee00;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.main_descript {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2B2B2B;
+}
+
+.main_price {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2B2B2B;
+}
+
+.btn1, .btn2 {
+  display: inline-block;
+  height: 41px;
+  padding: 10px 24px;
+  margin: auto 0;
+  border: 1px inset #3D84EE;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  /* line-height: 1.1; */
+} 
+
+.btn1 {
+  color: #fff;
+  background: #3D84EE;
+}
+
+.btn2 {
+  color: #2B2B2B;
+  background: #fff;
 }
 
 .summ {
@@ -58,7 +127,8 @@ html, body {
 }
 
 
-.nav {
+/* Навигация */
+.page_footer {
   box-shadow: 0 0 10px #777;
 }
 
